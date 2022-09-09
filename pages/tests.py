@@ -6,6 +6,7 @@ from django.urls import reverse, resolve  # new
 from .views import HomePageView  # new
 
 
+
 class HomepageTests(SimpleTestCase):
     def setUp(self):  
         url = reverse("home")
